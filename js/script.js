@@ -23,10 +23,9 @@
   const params = new URLSearchParams(document.location.search)
 
   // input
-  const aBase = params.get('a')
-  const bBase = params.get('b')
-  const height = params.get('h')
-  console.log(aBase)
+  const sideA = parseInt(params.get('a'))
+  const sideB = parseInt(params.get('b'))
+  const height = parseInt(params.get('h'))
 
   // process
   const area = ((aBase + bBase) / 2) * height
