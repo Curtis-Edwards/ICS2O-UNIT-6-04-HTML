@@ -28,8 +28,8 @@
   const height = parseInt(params.get('h'))
 
   // process
-  const area = ((aBase + bBase) / 2) * height
-  const dimensions = "<ul>\n<li>a base = " + aBase + "</li>\n<li>b base = " + bBase + "</li>\n<li>height = " + height + "</li>\n</ul>"
+  const area = ((sideA + sideB) / 2) * height
+  const dimensions = "<ul>\n<li>a base = " + sideA + "</li>\n<li>b base = " + sideB + "</li>\n<li>height = " + height + "</li>\n</ul>"
 
   // output
   document.getElementById('dimensions').innerHTML = dimensions
